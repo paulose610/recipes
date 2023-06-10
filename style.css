@@ -1,10 +1,34 @@
+html {
+    box-sizing: border-box;
+    max-width: 100%;
+  }
+  *,
+  *::before,
+  *::after {
+    box-sizing: inherit;
+  }
+
 .bc1{
   background-color:bisque; 
+  width: 1800px;
+  max-width: 100%;
 }
 
 .bc2{
     background-color: rgb(136, 130, 97);
-}  
+    width: 250px;
+    box-shadow: 2px 2px 4px rgba(0, 0, 0, 0.4);
+    margin-top: 20px;
+}
+
+.cont {
+    border:1px solid rgb(136,130,97);
+    margin: 40px 10px;
+    background-color: rgb(136,130,97);
+    padding: 120px;
+    width: fit-content;
+    
+}
 
 #hp {
    background-color: rgb(136, 130, 97); 
@@ -13,9 +37,71 @@
 .head {
     color: rgb(104, 75, 20);
     font-family: Verdana;
+    text-align:center;
 }
 
 .arr {
     margin: 20px 0px 0px 0px;
+}
+
+.list.bc1 {
+    box-shadow: 2px 2px 4px rgba(0, 0, 0, 0.4);
+    width: 400px;
+    max-width: 100%;
+} 
+
+
+ul li {
+     display: inline-block;  
+     list-style-type: disc; 
+     margin: 10px;
+     background-color: rgb(230, 121, 94);
+     padding: 10px;
+     box-shadow: 2px 2px 4px rgba(0, 0, 0, 0.4);
+}
+
+.para {
+      max-width: 100%;
+      width: 700px;
+}
+
+.hap,.hap2 {
+    display: inline-block;
+    vertical-align: middle;
+    margin: -3px;
+    padding: 10px;   
+    max-width: 100%;
+}
+
+.hap{
+    border-width: 10px 0px 10px 10px;
+    border-style: solid;
+    border-color: rgb(165, 165, 117);
+}
+.hap2{
+    border-width: 10px 10px 10px 0px;
+    border-style: solid;
+    border-color: rgb(161, 161, 116);
+}
+
+.ing,.steps {
+           display: block;
+           width: 700px;
+           max-width: 100%;
+           box-shadow: 2px 2px 4px rgba(0, 0, 0, 0.4); 
+           margin: 10px;
+           background-color: rgb(224, 177, 120);
+           
+        }
+       
+        
+
+button {
+    box-shadow: 2px 2px 4px rgba(0, 0, 0, 0.4);
+    background-color: antiquewhite;
+}        
+
+ a {
+    color: black;
 }
 
